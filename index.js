@@ -83,35 +83,190 @@
 // console.log("hech narsa yo'q");
 // }
 //2
-let price = +prompt("baho kiriting");
-switch (price) {
-  case 1:
-    console.log("yomon");
-    console.log("yomon");
-    break;
-  case 2:
-    console.log("qoniqarsiz");
-    console.log("qoniqarsiz");
-    break;
-  case 3:
-    console.log("qoniqarli");
-    console.log("qoniqarli");
-    break;
+// let price = +prompt("baho kiriting");
+// switch (price) {
+//   case 1:
+//     console.log("yomon");
+//     console.log("yomon");
+//     break;
+//   case 2:
+//     console.log("qoniqarsiz");
+//     console.log("qoniqarsiz");
+//     break;
+//   case 3:
+//     console.log("qoniqarli");
+//     console.log("qoniqarli");
+//     break;
 
-  case 4:
-    console.log("yaxshi");
-    console.log("yaxshi");
-    break;
-  case 5:
-    console.log("a'lo");
-    console.log("a'lo");
-    break;
-  case 5:
-    console.log("great");
-    console.log("great");
-    break;
-  default:
-    console.log("bunaqa haho yo'q");
+//   case 4:
+//     console.log("yaxshi");
+//     console.log("yaxshi");
+//     break;
+//   case 5:
+//     console.log("a'lo");
+//     console.log("a'lo");
+//     break;
+//   case 5:
+//     console.log("great");
+//     console.log("great");
+//     break;
+//   default:
+//     console.log("bunaqa haho yo'q");
 
-    break;
-}
+//     break;
+// }
+
+//3----
+// let month = +prompt("oyni kiriting");
+
+// switch (month) {
+//   case 1:
+//      console.log("January");
+//      console.log("January");
+//      break;
+//      case 2:
+//       console.log("February");
+//       console.log("February");
+//       break;
+//       case 3:
+//         console.log("Mart");
+//         console.log("Mart");
+//         break;
+//         case 4:
+//         console.log("April");
+//         console.log("April");
+//         break;
+//         case 5:
+//         console.log("May");
+//         console.log("May");
+//         break;
+//         case 6:
+//         console.log("June");
+//         console.log("June");
+//         break;
+//         case 7:
+//         console.log("July");
+//         console.log("July");
+//         break;
+//         case 8:
+//         console.log("August");
+//         console.log("August");
+//         break;
+//         case 9:
+//         console.log("September");
+//         console.log("september");
+//         break;
+//         case 10:
+//         console.log("October");
+//         console.log("October");
+//         break;
+//         case 11:
+//         console.log("November");
+//         console.log("November");
+//         break;
+//         case 12:
+//         console.log("December");
+//         console.log("December");
+//         break;
+
+//   default:
+//     console.log("bu oy mavjus emas");
+//     break;
+// }
+
+//4
+// let days = +prompt("raqamni kiriting")
+// switch (days) {
+//   case 1:
+//     console.log("Yanvar 31 kun");
+//     console.log("Yanvar 31 kun");
+//     break;
+// case 2:
+//     console.log("Fevral 29 kun");
+//     console.log("Fevral 29  kun");
+//     break;
+// case 3:
+//     console.log("Mart 30 kun");
+//     console.log("Mart 30 kun");
+//     break;
+// case 4:
+//     console.log("April 30 kun");
+//     console.log("April 30 kun");
+//     break;
+
+//   default:
+//     console.log("qayta urinib ko'ring balki o'xshar");
+//     ;
+// }
+//5
+// let math = +prompt("qiymat kiriting");
+// let A = 10;
+// let B = 20;
+// switch (math) {
+//   case 1:
+//     console.log("Natija", A + B);
+//     console.log("Natija", A + B);
+//     break;
+//   case 2:
+//     console.log("Natija", A - B);
+//     console.log("Natija", A - B);
+//     break;
+//   case 3:
+//     console.log("Natija", A * B);
+//     console.log("Natija", A * B);
+//     break;
+//   case 4:
+//     console.log("Natija", A % B);
+//     console.log("Natija", A % B);
+//     break;
+//   default:
+//     console.log("Noto'g'ri amal tanlandi");
+//     break;
+// }
+
+//6---
+
+//7---
+// let massa = +prompt("Og'irlik qiymati kiriting");
+//1 kg da hisobladim
+// let kg = 1;
+// switch (massa) {
+//   case 1:
+//     console.log("massa =" ,+  kg );
+//     break;
+//   case 2:
+//     console.log("massa =" , kg / 100);
+//     break;
+//     case 3:
+//       console.log("massa =" , kg * 3/1000);
+//       break;
+//       case 4:
+//         console.log("massa =", kg * 4000);
+//         break;
+//         case 5:
+//         console.log("massa =" , 5 * kg / 1000);
+//         break;
+//   default:
+//     break;
+// }
+
+//8
+let years =[2000,2004,2008,2012,2016,2020,2024]; 
+let year = +prompt("kiriting yilni")
+    switch (true) {
+        case 1: (years % 366 === 0)
+        console.log(true);
+          break;
+        case 2: (years % 4 === 0 && years % 365 !== 0)
+          console.log(true);
+          
+        break;
+
+        default:
+            console.log("I don't know");
+    }
+
+    //While👇
+
+    //1---
+    
