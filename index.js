@@ -269,4 +269,9 @@ let year = +prompt("kiriting yilni")
     //While👇
 
     //1---
-    
+//     let A = 14;
+//     let B = 12;
+// while (A > B || B < 0 ) {
+//   console.log(A);
+  
+// }
