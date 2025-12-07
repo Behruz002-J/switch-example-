@@ -334,7 +334,7 @@
 // console.log(k);
 
 //6---
-let n = 5;
+// let n = 5;
 // n!! = n * (n - 2 ) * (n - 4) ....
 // 15 = 5 * (3) * 1
 // agar let n = 6 juft bo'lsa 
@@ -352,3 +352,15 @@ let n = 5;
 //   }
   
 // }console.log(k);
+
+//8----
+// let n = 5;
+// let k = 2;
+// let m = 0;
+//k ** 2 <= n
+// if(n => k) {
+// m = m+k;
+// }
+// console.log(m);
+
+//9
