@@ -251,27 +251,104 @@
 // }
 
 //8
-let years =[2000,2004,2008,2012,2016,2020,2024]; 
-let year = +prompt("kiriting yilni")
-    switch (true) {
-        case 1: (years % 366 === 0)
-        console.log(true);
-          break;
-        case 2: (years % 4 === 0 && years % 365 !== 0)
-          console.log(true);
-          
-        break;
+// let years = [2000, 2004, 2008, 2012, 2016, 2020, 2024];
+// let year = +prompt("kiriting yilni");
+// switch (true) {
+//   case 1:
+//     years % 366 === 0;
+//     console.log(true);
+//     break;
+//   case 2:
+//     years % 4 === 0 && years % 365 !== 0;
+//     console.log(true);
 
-        default:
-            console.log("I don't know");
-    }
+//     break;
 
-    //While👇
-
-    //1---
-//     let A = 14;
-//     let B = 12;
-// while (A > B || B < 0 ) {
-//   console.log(A);
-  
+//   default:
+//     console.log("I don't know");
 // }
+
+//While👇
+
+//1---
+// let A = 14;
+// let B = 5;
+// let round = 0;
+// while (A > B) {
+//   round = round - B;
+// }
+// console.log("va qoldiq = " + round);
+
+//2
+// let a = 10;
+// let b = 4;
+// let n = 0;
+// while (a > b) {
+//   n = n - b;
+// }
+// console.log(n);
+
+// let A = 10;
+// let B = 4;
+// let num = 0;
+// for (let i = 0; i <= A; i++) {
+//   if (i % B == 1) {
+//     num = i;
+//   }
+// }
+// console.log(num);
+
+//3
+// let N = 12;
+// let K = 5;
+// let butun = 0;
+
+// while (N >= K) {
+//   N = N - K;
+//   butun++;
+// } 
+// let qoldiq = N;
+// console.log(butun);
+// console.log(qoldiq);
+
+//4----
+// let n = 3;
+// let m = n;
+
+// while (m % 3) {
+// m = m / 3;
+// }
+// if(m === 1) {
+// console.log(n + " m ning darajasi");
+// }else {
+//   console.log(n + " m ning darajasi emas");
+// }
+
+//5---
+// let n = 8;
+// let k = 4;
+//n= 2 ** k ; k = 4
+// while(n%k ) {
+
+// }
+// console.log(k);
+
+//6---
+let n = 5;
+// n!! = n * (n - 2 ) * (n - 4) ....
+// 15 = 5 * (3) * 1
+// agar let n = 6 juft bo'lsa 
+// 48 = 6 * 4 * 2;
+//meni tushunishim shunaqa bo'ldi
+
+//7
+// let m = 3;
+// let k = m;
+
+// while(k ** 2) {
+//   if(k ===0) {
+//     k++;
+    
+//   }
+  
+// }console.log(k);
