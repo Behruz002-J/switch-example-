@@ -270,7 +270,7 @@
 
 //While👇
 
-//1---
+//1----
 // let A = 14;
 // let B = 5;
 // let round = 0;
@@ -279,7 +279,7 @@
 // }
 // console.log("va qoldiq = " + round);
 
-//2
+//2----
 // let a = 10;
 // let b = 4;
 // let n = 0;
@@ -298,7 +298,7 @@
 // }
 // console.log(num);
 
-//3
+//3----
 // let N = 12;
 // let K = 5;
 // let butun = 0;
@@ -306,7 +306,7 @@
 // while (N >= K) {
 //   N = N - K;
 //   butun++;
-// } 
+// }
 // let qoldiq = N;
 // console.log(butun);
 // console.log(qoldiq);
@@ -324,7 +324,7 @@
 //   console.log(n + " m ning darajasi emas");
 // }
 
-//5---
+//5----
 // let n = 8;
 // let k = 4;
 //n= 2 ** k ; k = 4
@@ -333,24 +333,24 @@
 // }
 // console.log(k);
 
-//6---
+//6----
 // let n = 5;
 // n!! = n * (n - 2 ) * (n - 4) ....
 // 15 = 5 * (3) * 1
-// agar let n = 6 juft bo'lsa 
+// agar let n = 6 juft bo'lsa
 // 48 = 6 * 4 * 2;
 //meni tushunishim shunaqa bo'ldi
 
-//7
+//7----
 // let m = 3;
 // let k = m;
 
 // while(k ** 2) {
 //   if(k ===0) {
 //     k++;
-    
+
 //   }
-  
+
 // }console.log(k);
 
 //8----
@@ -363,4 +363,59 @@
 // }
 // console.log(m);
 
-//9
+//9----
+// let n = 2;
+// let k = 0;
+// 3 ** k > n
+// while(Math.pow(3,k) <= n) {
+//   k = k + 1;
+// }
+// console.log("Eng kichik qiymat = " + k);
+
+//11----
+// let n = 10;
+// let k = 0;
+// let sum = 0;
+// while(sum < n) {
+//     k = k + 1;
+//     sum = sum + k;
+// }
+// console.log("k = " + k);
+// console.log("Yig'indi = " + sum);
+
+//12----
+// let n = 8;
+// let k = 0;
+// let sum = 0;
+// while(sum < n) { 
+//     k = k + 1;
+//     sum = sum + k;
+// }
+// console.log(sum);
+// console.log(k);
+
+//13----
+// let a = 5;
+// (1 + 1/2 + 1/3 +... + 1/K) <= a
+// let summ = 0;
+// let K = 0;
+// while (summ < a) {
+// K = 1/1 + 1/2 + 1/3 + 1/3 + 1/4 + 1/5;
+// summ = summ + K;
+// }
+// console.log(  " K = "+ K);
+// console.log( "yig'indi = " +  summ);
+
+//16----
+let day1 = 10;
+let p = 0;
+let result = 0;
+let full = 200;
+if() {
+result = result + 200;
+p = p + 1;
+}
+console.log(result);
+console.log(p);
+
+//
